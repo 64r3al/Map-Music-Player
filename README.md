@@ -21,7 +21,7 @@ This project is a music player script designed for FiveM servers, allowing playe
 
 2. **Add the resource to your FiveM server**:
    - Place the `music-player` folder in your `resources` directory.
-   - Add `start music-player` to your server configuration file (`server.cfg`).
+   - Add `ensure music-player` to your server configuration file (`server.cfg`).
 
 3. **Dependencies**:
    - Ensure you have the `xsound` resource installed on your server for audio playback functionality.
