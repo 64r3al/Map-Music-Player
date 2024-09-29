@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#music-player {
+    background: rgb(255, 0, 200);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eaeaea;
+}
+
+.hidden {
+    display: none;
+}
+
+.nextui-input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+}
+
+.nextui-button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nextui-button.primary {
+    background-color: #0070f3;
+    color: white;
+}
+
+.nextui-button.secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.nextui-button.danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.nextui-slider {
+    width: 80%;
+}
